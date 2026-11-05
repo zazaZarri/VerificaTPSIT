@@ -31,4 +31,8 @@ class Componente:
     def peso_kg(self, valore: float)->None:
         self._peso_kg = valore
         
-        
+
+
+
+    def __repr__(self)->str:
+        return f"{self._nome}"

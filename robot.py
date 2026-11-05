@@ -47,6 +47,10 @@ class Robot:
         return pesoMaxComponenti
     
     
+    def __repr__(self)-> str:
+        return f"Codice = {self.codice}   Modello = {self.modello}  Applicazione = {self.applicazione} PesoMax = {self.peso_massimo_componenti_kg} Stato = {self.stato}  PesoComponenti = {self.peso_componenti()}"
+    
+    
     
     
     
